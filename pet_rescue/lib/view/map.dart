@@ -34,7 +34,7 @@ class Map extends StatelessWidget {
         appBar: new AppBar(
           title: new Text('Anuncios'),
         ),
-        body: new MapWidget(currentLocation: true, onMarkerTap: __onMarkerSelect, markers: markers.content),
+        body: new MapWidget(currentLocation: true, onMarkerTap: __onMarkerSelect, markers: []),
         floatingActionButton: new Hero(tag: 'add-button',child: __floatingButton));
   }
 
